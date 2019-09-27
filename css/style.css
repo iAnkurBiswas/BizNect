@@ -8520,6 +8520,7 @@ h1, h2, h3, h4, h5,
       background: transparent;
       color: #6927ff; }
     .btn.btn-primary.btn-outline-primary {
+      width: 130px;
       border: 2px solid #6927ff;
       background: transparent;
       color: #6927ff; }
@@ -9356,8 +9357,8 @@ textarea.form-control {
     opacity: .9; }
 
 .ftco-counter {
-  padding: 5em 0;
-  background: #6927ff; }
+  padding: 2em 0;
+  background: #F6F5FF; }
   @media (max-width: 991.98px) {
     .ftco-counter {
       background-position: center center !important; } }
@@ -10032,3 +10033,9 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+  .heading-text {
+    color: #6347FB;
+    font-size: 60px;
+    font-weight: lighter;
+  }
