@@ -9135,7 +9135,7 @@ textarea.form-control {
 
 .heading-section h2 {
   font-size: 40px;
-  font-weight: 700;
+  font-weight: lighter;
   color: #000; }
   @media (max-width: 767.98px) {
     .heading-section h2 {
