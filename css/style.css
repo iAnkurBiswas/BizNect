@@ -10056,3 +10056,14 @@ textarea.form-control {
     background: #d6cefd;
     color: #6347FB;
   }
+
+  .ftco-solution {
+    background: #6347FB;
+  }
+
+  .solution-text {
+    color: #fff;
+    font-size: 55px;
+    font-weight: lighter;
+    text-align: center;
+  }
