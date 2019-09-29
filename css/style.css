@@ -10051,3 +10051,8 @@ textarea.form-control {
     font-weight: lighter;
     text-align: center;
   }
+
+  .ftco-with {
+    background: #d6cefd;
+    color: #6347FB;
+  }
