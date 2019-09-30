@@ -8736,7 +8736,6 @@ h1, h2, h3, h4, h5,
     width: 80px;
     height: 80px;
     margin: 0 auto;
-    background: #6927ff;
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
@@ -8746,8 +8745,8 @@ h1, h2, h3, h4, h5,
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     border-radius: 50%; }
-    .services .icon span {
-      font-size: 44px;
+    .services .icon img {
+      width: 100%;
       color: #fff; }
   .services .media-body {
     -moz-transition: all 0.3s ease;
