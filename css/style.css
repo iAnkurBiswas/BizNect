@@ -365,6 +365,7 @@ mark,
   background-color: #fcf8e3; }
 
 .list-unstyled {
+  text-align: end;
   padding-left: 0;
   list-style: none; }
 
@@ -9010,6 +9011,7 @@ textarea.form-control {
       background: #fff;
       border: 1px solid #fff !important; }
   .ftco-footer p {
+    text-align: center;
     color: rgba(255, 255, 255, 0.7); }
   .ftco-footer a {
     color: rgba(255, 255, 255, 0.7); }
@@ -10073,4 +10075,8 @@ textarea.form-control {
     font-size: 45px;
     font-weight: lighter;
     text-align: center;
+  }
+
+  .copyright {
+    border-bottom: 1px solid #D6CEFD;
   }
