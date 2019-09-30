@@ -10067,3 +10067,10 @@ textarea.form-control {
     font-weight: lighter;
     text-align: center;
   }
+
+  .next-text {
+    color: #6347FB;
+    font-size: 45px;
+    font-weight: lighter;
+    text-align: center;
+  }
