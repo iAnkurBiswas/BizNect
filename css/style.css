@@ -10105,3 +10105,14 @@ textarea.form-control {
     color: #FF7F43 !important;
     border: none !important;
   }
+
+  .avatar {
+    border-radius: 50%;
+    width: 120%;
+  }
+
+  .half-card {
+    border: 1px solid #5B5D7E;
+    padding: 45px 30px;
+    border-radius: 7px;
+  }
