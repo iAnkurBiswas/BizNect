@@ -8521,7 +8521,6 @@ h1, h2, h3, h4, h5,
       background: transparent;
       color: #6927ff; }
     .btn.btn-primary.btn-outline-primary {
-      width: 130px;
       border: 2px solid #6927ff;
       background: transparent;
       color: #6927ff; }
@@ -10078,4 +10077,18 @@ textarea.form-control {
 
   .copyright {
     border-bottom: 1px solid #D6CEFD;
+  }
+
+  .platform-btn {
+    width: 130px;
+  }
+
+  .wht-btn {
+    background: #fff !important;
+    color: #D6CEFD;
+  }
+
+  .wht-btn:hover {
+    background: #6347FB !important;
+    color: #fff;
   }
