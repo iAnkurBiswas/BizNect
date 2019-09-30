@@ -10086,9 +10086,22 @@ textarea.form-control {
   .wht-btn {
     background: #fff !important;
     color: #D6CEFD;
+    border: none !important;
   }
 
   .wht-btn:hover {
     background: #6347FB !important;
     color: #fff;
+  }
+
+  .btn-subscribe {
+    background: #FF7F43 !important;
+    color: #FEEFE8 !important;
+    border: none !important;
+  }
+
+  .btn-subscribe:hover {
+    background: #FEEFE8 !important;
+    color: #FF7F43 !important;
+    border: none !important;
   }
