@@ -10161,3 +10161,9 @@ textarea.form-control {
   .center {
     text-align: center;
   }
+
+  @media (max-width: 768px) {
+    .hero-wrap .slider-text .one-third {
+      display: none;
+    }
+  }
