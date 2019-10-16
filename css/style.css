@@ -8378,7 +8378,9 @@ h1, h2, h3, h4, h5,
       @media (max-width: 1199.98px) {
         .hero-wrap .slider-text .one-third {
           width: 100%;
-          z-index: 0; }
+          z-index: 0; 
+          opacity: 0.4;
+        }
           .hero-wrap .slider-text .one-third .overlay {
             opacity: .3; }
           .hero-wrap .slider-text .one-third:after {
@@ -10135,11 +10137,13 @@ textarea.form-control {
     margin-left: 20px;
     color: #000;
     border: none;
+    background: none;
   }
 
   .lang-en {
     color: #000;
     border: none;
+    background: none;
   }
 
   body.en :lang(zh) {
@@ -10152,4 +10156,8 @@ textarea.form-control {
 
   button {
     outline: none !important;
+  }
+
+  .center {
+    text-align: center;
   }
