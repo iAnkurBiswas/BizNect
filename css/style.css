@@ -10116,3 +10116,40 @@ textarea.form-control {
     padding: 45px 30px;
     border-radius: 7px;
   }
+
+  .lang {
+    margin-top: 10px;
+  }
+
+  .lang:hover, .lang:focus {
+    text-decoration: none; 
+  }
+
+  .lang.disabled {
+    color: #6c757d;
+    pointer-events: none;
+    cursor: default; 
+  }
+
+  .lang-zh {
+    margin-left: 20px;
+    color: #000;
+    border: none;
+  }
+
+  .lang-en {
+    color: #000;
+    border: none;
+  }
+
+  body.en :lang(zh) {
+    display: none;
+  }
+
+  body.zh :lang(en) {
+    display: none;
+  }
+
+  button {
+    outline: none !important;
+  }

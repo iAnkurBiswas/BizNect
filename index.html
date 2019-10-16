@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8" />
     <meta
@@ -56,24 +56,41 @@
         <div class="collapse navbar-collapse" id="ftco-nav">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a href="index.html" class="nav-link">Home</a>
+              <a href="index.html" lang="en" class="nav-link">Home</a>
+              <a href="index.html" lang="zh" class="nav-link">主頁</a>
             </li>
             <li class="nav-item">
-              <a href="about.html" class="nav-link">Why</a>
+              <a href="#why" lang="en" class="nav-link">Why</a>
+              <a href="#why" lang="zh" class="nav-link">為何BizNect</a>
             </li>
             <li class="nav-item">
-              <a href="domain.html" class="nav-link">Features</a>
+              <a href="#feature" lang="en" class="nav-link">Features</a>
+              <a href="#feature" lang="zh" class="nav-link">功能</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="hosting.html">Pricing</a>
+              <a class="nav-link" lang="en" href="#price">Pricing</a>
+              <a class="nav-link" lang="zh" href="#price">價格方案</a>
             </li>
             <li class="nav-item">
-              <a href="blog.html" class="nav-link">User Cases</a>
+              <a href="#user-cases" lang="en" class="nav-link">User Cases</a>
+              <a href="#user-cases" lang="zh" class="nav-link">範例</a>
             </li>
             <li class="nav-item cta">
-              <a href="contact.html" class="nav-link"
-                ><span>Tell me when it's available</span></a
-              >
+              <a href="#subscribe" class="nav-link" lang="en">
+                <span>Tell me when it's available</span>
+              </a>
+              <a href="#subscribe" class="nav-link" lang="zh">
+                <span>訂閱獲取最新資訊</span>
+              </a>
+            </li>
+            <li class="nav-item lang">
+              <button onclick="document.body.className='zh'" class="lang-zh">
+                中
+              </button>
+              /
+              <button onclick="document.body.className='en'" class="lang-en">
+                EN
+              </button>
             </li>
           </ul>
         </div>
@@ -97,13 +114,22 @@
             class="one-forth d-flex align-items-center ftco-animate js-fullheight"
           >
             <div class="text mt-5">
-              <h1 class="mb-3">
+              <h1 class="mb-3" lang="en">
                 Networking Simplified. <br />
                 Never Miss an Opportunity.
               </h1>
-              <p>
+              <h1 class="mb-3" lang="zh">
+                BizNect隨身人脈網
+                即刻開啟你的無限機遇
+                直覺操作。簡易。全方位。
+              </h1>
+              <p lang="en">
                 BizNect makes it easy to organize your professional network so you can make the most of every opportunity. Want to get
                 it first? For new release updates Enter Your Email Here:
+              </p>
+              <p lang="zh">
+                BizNect幫助你輕鬆地整合各大社交網絡平台的聯繫人，建立專業人脈網。
+                無時不刻、隨時隨地 掌握邁向成功職涯的關鍵人脈。搶先試用？填寫Email即時接收最新消息！
               </p>
               <p>
                 <div class="row">
@@ -128,7 +154,8 @@
     <section class="ftco-section ftco-counter img" id="section-counter">
       <div class="container">
         <div class="row justify-content-center mb-3">
-          <h1 class="heading-text">Cross platform</h1>
+          <h1 class="heading-text" lang="en">Cross platform</h1>
+          <h1 class="heading-text" lang="zh">跨平台運作</h1>
         </div>
         <div class="row justify-content-center">
           <div class="col-md-5">
@@ -162,8 +189,10 @@
                   <a
                     href="#"
                     class="btn btn-primary btn-outline-primary platform-btn px-4 py-3"
-                    >Web</a
+                    lang="en"
+                    >Desktop</a
                   >
+                  <a href="#" class="btn btn-primary btn-outline-primary platform-btn px-4 py-3" lang="zh">桌上型電腦</a>
                 </p>
               </div>
             </div>
@@ -174,14 +203,19 @@
     <!-- End cross-platform section -->
 
     <!-- Start why section -->
-    <section class="ftco-section services-section bg-light">
+    <section class="ftco-section services-section bg-light" id="why">
       <div class="container">
         <div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-8 text-center heading-section ftco-animate">
-            <h2 class="mb-4">Why BizNect?</h2>
-            <p>
+            <h2 class="mb-4" lang="en">Why BizNect?</h2>
+            <h2 class="mb-4" lang="zh">為何選擇BizNect?</h2>
+            <p lang="en">
               Networking is tough. You need something that streamlines the process without adding clutter to your life. Biznect can
               help.
+            </p>
+            <p lang="zh">
+              我們明白你的需求：人脈總是在不知不覺中錯失？人脈網工具不該讓你更手忙腳亂，每當遇到潛在商務人脈，你值得更有效率的方式來增加、排序、編輯關鍵資訊，把握每一個無限可能。
+              準備好不再錯失良機？BizNect會是你的最佳夥伴。
             </p>
           </div>
         </div>
@@ -194,10 +228,14 @@
                 <img src="images/icon1.svg" alt="" srcset="">
               </div>
               <div class="media-body pl-4 pl-md-0 pr-md-4 text-md-right">
-                <h3 class="heading">Business card chaos?</h3>
-                <p class="mb-0">
+                <h3 class="heading" lang="en">Business card chaos?</h3>
+                <h3 class="heading" lang="zh">總是凌亂的名片？</h3>
+                <p class="mb-0" lang="en">
                   Convert business card snapshots into digital files you can quickly manage and search. With Biznect, the hassle of
                   sorting through piles of cards is over.
+                </p>
+                <p lang="zh">
+                  每次遇到潛在的商務聯絡人時，你會需要能最快速新增、分享、排序及尋找聯絡人資訊的聰明方法，不再需要手動整理名片。
                 </p>
               </div>
             </div>
@@ -210,9 +248,13 @@
                 <img src="images/icon4.svg" alt="" srcset="">
               </div>
               <div class="media-body pl-4">
-                <h3 class="heading">Tired of researching prospects you just met?</h3>
-                <p class="mb-0">
+                <h3 class="heading" lang="en">Tired of researching prospects you just met?</h3>
+                <h3 class="heading" lang="zh">即刻了解你正在與誰打交道</h3>
+                <p class="mb-0" lang="en">
                   Digital business cards that expand. Instantly know you who you’re talking to. Less time asking, more time doing.
+                </p>
+                <p class="mb-0" lang="zh">
+                  簡明扼要的BizNect電子名片協助你在最短時間內了解新聯絡人的相關資訊，不再需要耗費大量時間摸索，即刻與潛在客戶展開對話、切入正題！
                 </p>
               </div>
             </div>
@@ -225,12 +267,18 @@
                 <img src="images/icon2.svg" alt="" srcset="">
               </div>
               <div class="media-body pl-4 pl-md-0 pr-md-4 text-md-right">
-                <h3 class="heading">
+                <h3 class="heading" lang="en">
                   Keep work life and personal life separate.
                 </h3>
-                <p>
+                <h1 class="heading" lang="zh">
+                  公私混雜，難以區分工作與生活？
+                </h1>
+                <p lang="en">
                   BizNect is tailored to the essential needs of your businesses. You’ll never need to switch between personal and
                   businesses accounts again.
+                </p>
+                <p lang="zh">
+                  從第一次接觸到後續溝通，BizNect幫你掌管專業上每一件大小事，不再總是在個人通訊及商業帳號間混淆忙亂，在工作與生活間自由轉換。
                 </p>
               </div>
             </div>
@@ -243,10 +291,14 @@
                 <img src="images/icon5.svg" alt="" srcset="">
               </div>
               <div class="media-body pl-4">
-                <h3 class="heading">Too many platforms to manage?</h3>
-                <p>
+                <h3 class="heading" lang="en">Too many platforms to manage?</h3>
+                <h3 class="heading" lang="zh">太多社交平台難以掌控？</h3>
+                <p lang="en">
                   Stay in touch with prospects across platforms- Linkedin, Facebook and more.
                   Meet. Follow up. Get business going. All from one place.
+                </p>
+                <p lang="zh">
+                  整理多個聯絡社交平台是相當耗時耗力的，BizNect會是輔助你有效率整理重要聯絡人的最佳工具。
                 </p>
               </div>
             </div>
@@ -259,9 +311,13 @@
                 <img src="images/icon3.svg" alt="" srcset="">
               </div>
               <div class="media-body pl-4 pl-md-0 pr-md-4 text-md-right">
-                <h3 class="heading">Different occasions, different role?</h3>
-                <p>
+                <h3 class="heading" lang="en">Different occasions, different role?</h3>
+                <h3 class="heading" lang="zh">不同場域間的多重角色轉換？</h3>
+                <p lang="en">
                   Effortlessly switch between multiple business profiles, and customize your details on the fly depending on the occasion.
+                </p>
+                <p lang="zh">
+                  你的工作囊括許多不同面向? 輕鬆切換在不同商業場合間的專業身份，並根據場合適時共享最適個人資訊。
                 </p>
               </div>
             </div>
@@ -274,10 +330,14 @@
                 <img src="images/icon6.svg" alt="" srcset="">
               </div>
               <div class="media-body pl-4">
-                <h3 class="heading">Maximize your circle:</h3>
-                <p>
+                <h3 class="heading" lang="en">Maximize your circle:</h3>
+                <h3 class="heading" lang="zh">最大化你的人脈圈</h3>
+                <p lang="en">
                   See who’s connected to who and find the right people within an organization faster. Stop wasting time and make more
                   deals.
+                </p>
+                <p lang="zh">
+                  更了解你的人脈圈中的每一道關鍵脈絡，把握時間與最具潛力的對象交談，不再浪費時間繞遠路摸索，有效建立個人人脈存摺。
                 </p>
               </div>
             </div>
@@ -294,9 +354,13 @@
     >
       <div class="container">
         <div class="row justify-content-center mb-3">
-          <h1 class="image-header">
+          <h1 class="image-header" lang="en">
             Experience a New Way of Networking: <br />
             Less Frustration, More Connection.
+          </h1>
+          <h1 class="image-header" lang="zh">
+            嶄新的使用體驗從BizNect開始，<br />
+            開啟你的無限機遇。
           </h1>
         </div>
         <div class="row justify-content-center">
@@ -311,11 +375,12 @@
     <!-- End image separator -->
 
     <!-- Start feature section -->
-    <section class="ftco-section bg-light">
+    <section class="ftco-section bg-light" id="feature">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-md-7 text-center heading-section ftco-animate">
-            <h2 class="mb-4">More than A Business Card</h2>
+            <h2 class="mb-4" lang="en">More than A Business Card</h2>
+            <h2 class="mb-4" lang="zh">不只是名片電子化</h2>
           </div>
         </div>
         <div class="row">
@@ -326,6 +391,7 @@
               class="nav ftco-animate nav-pills justify-content-center text-center"
               id="v-pills-tab"
               role="tablist"
+              lang="en"
               aria-orientation="vertical"
             >
               <a
@@ -336,6 +402,7 @@
                 role="tab"
                 aria-controls="v-pills-nextgen"
                 aria-selected="true"
+                lang="en"
                 >Personalized E-Business Cards</a
               >
 
@@ -347,6 +414,7 @@
                 role="tab"
                 aria-controls="v-pills-performance"
                 aria-selected="false"
+                lang="en"
                 >Organize Collection</a
               >
 
@@ -358,6 +426,7 @@
                 role="tab"
                 aria-controls="v-pills-effect"
                 aria-selected="false"
+                lang="en"
                 >Private Note & Photos</a
               >
 
@@ -369,6 +438,7 @@
                 role="tab"
                 aria-controls="v-pills-files"
                 aria-selected="false"
+                lang="en"
                 >File Attachments</a
               >
 
@@ -380,6 +450,7 @@
                 role="tab"
                 aria-controls="v-pills-scan"
                 aria-selected="false"
+                lang="en"
                 >Scan, Connect, Invite</a
               >
 
@@ -391,8 +462,30 @@
                 role="tab"
                 aria-controls="v-pills-chat"
                 aria-selected="false"
+                lang="en"
                 >Chat</a
               >
+            </div>
+
+            <div class="nav ftco-animate nav-pills justify-content-center text-center" id="v-pills-tab" role="tablist"
+              aria-orientation="vertical" lang="zh">
+              <a class="nav-link active" id="v-pills-nextgen-tab" data-toggle="pill" href="#v-pills-nextgen" role="tab"
+                aria-controls="v-pills-nextgen" aria-selected="true" lang="zh">個人E名片 條理化。智慧化。效率化。</a>
+            
+              <a class="nav-link" id="v-pills-performance-tab" data-toggle="pill" href="#v-pills-performance" role="tab"
+                aria-controls="v-pills-performance" aria-selected="false" lang="zh">聯絡人管理</a>
+            
+              <a class="nav-link" id="v-pills-effect-tab" data-toggle="pill" href="#v-pills-effect" role="tab"
+                aria-controls="v-pills-effect" aria-selected="false" lang="zh">私人便條、紀錄</a>
+
+              <a class="nav-link" id="v-pills-files-tab" data-toggle="pill" href="#v-pills-files" role="tab"
+                aria-controls="v-pills-files" aria-selected="false" lang="zh">夾帶檔案</a>
+
+              <a class="nav-link" id="v-pills-scan-tab" data-toggle="pill" href="#v-pills-scan" role="tab"
+                aria-controls="v-pills-scan" aria-selected="false" lang="zh">掃描、建立、邀請</a>
+
+              <a class="nav-link" id="v-pills-chat-tab" data-toggle="pill" href="#v-pills-chat" role="tab"
+                aria-controls="v-pills-chat" aria-selected="false" lang="zh">開啟對話</a>
             </div>
           </div>
           <div class="col-md-12 align-items-center ftco-animate">
@@ -407,7 +500,7 @@
                   <div class="one-forth align-self-center">
                     <img src="images/feature1.svg" class="img-fluid" alt="" />
                   </div>
-                  <div class="one-half ml-md-5 align-self-center">
+                  <div class="one-half ml-md-5 align-self-center" lang="en">
                     <h2 class="mb-4">
                       A better way to network.
                     </h2>
@@ -428,6 +521,26 @@
                       </li>
                     </ul>
                   </div>
+
+                  <div class="one-half ml-md-5 align-self-center" lang="zh">
+                    <h2 class="mb-4">
+                      顛覆你對人脈網路商務工具的想像！
+                    </h2>
+                    <ul>
+                      <li>
+                        數位化個人名片
+                      </li>
+                      <li>
+                        一指點擊 輕鬆呈現/瀏覽關鍵資訊
+                      </li>
+                      <li>
+                        快速編輯和優化你的個人資料，更可加上鏈接，使任何聯繫人能夠輕鬆找到更多關於你的內容。
+                      </li>
+                      <li>
+                        所有使用者都能輕易上手的直覺化模板，高度客製化、免費模板支援，輕鬆創造精彩的個人印象。
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
 
@@ -441,7 +554,7 @@
                   <div class="one-forth order-first align-self-center">
                     <img src="images/feature2.svg" class="img-fluid" alt="" />
                   </div>
-                  <div class="one-half order-last mr-md-5 align-self-center">
+                  <div class="one-half order-last mr-md-5 align-self-center" lang="en">
                     <h2 class="mb-4">Organize contacts in your own way</h2>
                     <ul>
                       <li>
@@ -452,6 +565,18 @@
                         Create custom categories and groups to suit your organizational needs.
                       </li>
                       <li>Manage contacts by tags, and levels of importance.</li>
+                    </ul>
+                  </div>
+
+                  <div class="one-half order-last mr-md-5 align-self-center" lang="zh">
+                    <h2 class="mb-4">符合您使用習慣的客製化人脈管理系統</h2>
+                    <ul>
+                      <li>
+                        可依據人事時地編輯聯絡人分類，不再錯失每一筆關鍵脈絡。
+                      </li>
+                      <li>
+                        依據個人需求組織分類類別，以標籤和級別標示分類和重要性，系統化管理人脈網路。
+                      </li>
                     </ul>
                   </div>
                 </div>
@@ -467,7 +592,7 @@
                   <div class="one-forth align-self-center">
                     <img src="images/feature3.svg" class="img-fluid" alt="" />
                   </div>
-                  <div class="one-half ml-md-5 align-self-center">
+                  <div class="one-half ml-md-5 align-self-center" lang="en">
                     <h2 class="mb-4">
                       Keep track of the Details
                     </h2>
@@ -479,6 +604,20 @@
                       <li>
                         Too busy to take notes, or don’t like typing? Not a problem- snap a quick photo or screenshot and save to your notes on
                         any contact.
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="one-half ml-md-5 align-self-center" lang="zh">
+                    <h2 class="mb-4">
+                      你的貼身特助，記住每一段潛在機遇！
+                    </h2>
+                    <ul>
+                      <li>
+                        即時於app中記錄剛碰面的聯絡人、潛在客戶、新產品和關鍵對話，以便您隨時調閱參考。
+                      </li>
+                      <li>
+                        手忙腳亂來不及紀錄？不喜歡打字？ 這些都不是問題，你只需按下快門，在便條中儲存照片，日後便能隨時喚醒你的人脈記憶。
                       </li>
                     </ul>
                   </div>
@@ -495,7 +634,7 @@
                   <div class="one-forth align-self-center">
                     <img src="images/feature4.svg" class="img-fluid" alt="" />
                   </div>
-                  <div class="one-half ml-md-5 align-self-center">
+                  <div class="one-half ml-md-5 align-self-center" lang="en">
                     <h2 class="mb-4">
                       Show off your sales catalogue, or portfolio directly from
                       your profile.
@@ -512,6 +651,20 @@
                       </li>
                     </ul>
                   </div>
+
+                  <div class="one-half ml-md-5 align-self-center" lang="zh">
+                    <h2 class="mb-4">
+                      輕鬆於個人檔案中夾帶你的傲人業績、出色作品集。
+                    </h2>
+                    <ul>
+                      <li>
+                        支援PDF, 圖片,影音檔案類型。
+                      </li>
+                      <li>
+                        夾帶文件、圖片、影音，導引你的新聯絡人在短時間內了解你更多，留下最好的第一印象。
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
 
@@ -525,7 +678,7 @@
                   <div class="one-forth align-self-center">
                     <img src="images/feature5.svg" class="img-fluid" alt="" />
                   </div>
-                  <div class="one-half ml-md-5 align-self-center">
+                  <div class="one-half ml-md-5 align-self-center" lang="en">
                     <h2 class="mb-4">
                       Leverages your Influence with the latest in green
                       technology.
@@ -547,6 +700,20 @@
                       </li>
                     </ul>
                   </div>
+
+                  <div class="one-half ml-md-5 align-self-center" lang="zh">
+                    <h2 class="mb-4">
+                      以新穎科技最大化你的職場影響力！
+                    </h2>
+                    <ul>
+                      <li>
+                        BizNect 影像辨識系統，讓你以最簡易的操作方式管理你的數位人脈網絡． 假設交手的新聯絡人還沒註冊BizNect? 別擔心．一鍵按下邀請按鈕，他們很快就會衷心感激你的推薦！
+                      </li>
+                      <li>
+                        透過Wi-Fi 或藍芽與附近的聯絡人快速建立關係，只需要輕鬆地送出邀請。
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
 
@@ -560,7 +727,7 @@
                   <div class="one-forth align-self-center">
                     <img src="images/feature6.svg" class="img-fluid" alt="" />
                   </div>
-                  <div class="one-half ml-md-5 align-self-center">
+                  <div class="one-half ml-md-5 align-self-center" lang="en">
                     <h2 class="mb-4">
                       Message prospects and Make things happen.
                     </h2>
@@ -571,6 +738,20 @@
                       </li>
                       <li>
                         Share important images, files, and more, directly within the chat without the need for leaving the app.
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="one-half ml-md-5 align-self-center" lang="zh">
+                    <h2 class="mb-4">
+                      立刻與聯絡人展開對話，把握每一次機遇．
+                    </h2>
+                    <ul>
+                      <li>
+                        延續剛見面的熟悉度，開啟一場輕鬆的對話。內建聊天系統讓你便利的維護關係，即刻開啟或回應關鍵信息，點燃更多潛在合作機會吧!
+                      </li>
+                      <li>
+                        整合各類型檔案分享，無需離開app介面，於BizNect聊天系統即可與聯絡人即時分享圖片、文件…等多種檔案類型，提供最流暢的使用體驗。
                       </li>
                     </ul>
                   </div>
@@ -590,12 +771,16 @@
     >
       <div class="container">
         <div class="row justify-content-center mb-3">
-          <h1 class="heading-text">Expand your potential with Biznect</h1>
+          <h1 class="heading-text" lang="en">Expand your potential with Biznect</h1>
+          <h1 class="heading-text" lang="zh">BizNect在手，從容展開每一段美好機遇</h1>
         </div>
         <div class="row justify-content-center">
-          <p>
+          <p lang="en">
             Biznect gives you the networking power
             and efficiency to take hold of every opportunity.
+          </p>
+          <p lang="zh">
+            整合五大核心功能- 全方位打造最有效的人脈管理方式。
           </p>
         </div>
       </div>
@@ -603,17 +788,24 @@
     <!-- End with BizNect section -->
 
     <!-- Start who section -->
-    <section class="ftco-section bg-light">
+    <section class="ftco-section bg-light" id="user-cases">
       <div class="container">
         <div class="row justify-content-center pb-5">
           <div class="col-md-8 text-center heading-section ftco-animate">
-            <h2 class="mb-4">
+            <h2 class="mb-4" lang="en">
               Who is BizNect for? <br />
               Here are just a few examples:
             </h2>
-            <p>
+            <h2 class="mb-4" lang="zh">
+              我是否適合 BizNect？<br />
+              看看你是否也常碰到這些惱人情境吧
+            </h2>
+            <p lang="en">
               Showcase your professional profile, company information, achievements, products, or services. Whatever the occasion,
               we’ve got you covered!
+            </p>
+            <p lang="zh">
+              不管是展現專業知識、工作經歷、特殊技能或是獨一無二的個人特色，你都能在BizNect上量身訂製最能表現自我的個人信息。
             </p>
           </div>
         </div>
@@ -631,28 +823,44 @@
                     <img src="images/example1.svg" class="img-fluid" alt="" />
                   </div>
                   <div class="one-half half-card ml-md-5 align-self-center">
-                    <h2 class="mb-4">
+                    <h2 class="mb-4" lang="en">
                       Case Study
+                    </h2>
+                    <h2 class="mb-4" lang="zh">
+                      案例 A
                     </h2>
                     <div class="row px-3 py-3">
                       <div class="col-md-2">
                         <img class="avatar" src="images/winnieLo.jpeg" alt="" srcset="">
                       </div>
-                      <div class="col-md-10">
+                      <div class="col-md-10" lang="en">
                         <h5>Winnie Lo</h5>
                         <p>Sales Representative & PR</p>
                       </div>
+                      <div class="col-md-10" lang="zh">
+                        <h5>Winnie Lo</h5>
+                        <p>業務代表</p>
+                      </div>
                     </div>
-                    <p>
+                    <p lang="en">
                       Winnie contacts and follows up on numerous leads everyday. Biznect helps her efficiently manage customer lists and show
                       off products to new prospects from her smartphone.
                     </p>
+                    <p lang="zh">
+                      Winnie每天都要聯絡和維繫眾多公司、客戶，BizNect幫助她有效管理客戶清單，透過手機輕鬆編輯就可即時為每一個潛在客戶展示產品！
+                    </p>
                     <ul>
-                      <li>
+                      <li lang="en">
                         Elegantly present information about your company’s offerings during trade shows or other events.
                       </li>
-                      <li>
+                      <li lang="en">
                         Add and organize new prospects instantly. Leave the company catalogue and sleeves of business cards behind!
+                      </li>
+                      <li lang="zh">
+                        於商展或是任何潛藏合作機會的商務場所，以不令人感到推銷壓力的方式，自然明快地展示公司產品型錄或服務內容。
+                      </li>
+                      <li lang="zh">
+                        讓你能便利又快速地整理每一筆新增聯絡人資訊，再也不用整理那疊厚厚名片。
                       </li>
                     </ul>
                   </div>
@@ -673,8 +881,12 @@
       <div class="container">
         <div class="row justify-content-center mb-3">
           <div class="col-md-11">
-            <h1 class="solution-text">
+            <h1 class="solution-text" lang="en">
               A solution for trade shows, meetups, events, interviews, career building and more.
+            </h1>
+            <h1 class="solution-text" lang="zh">
+              商展、會議、活動、訪談、職涯…等
+              全方位的解決方案
             </h1>
           </div>
         </div>
@@ -683,11 +895,12 @@
     <!-- End solution section -->
 
     <!-- Start pricing section -->
-    <section class="ftco-section bg-light">
+    <section class="ftco-section bg-light" id="price">
       <div class="container">
         <div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-9 text-center heading-section ftco-animate">
-            <h2 class="mb-4">Choose the plan that’s right for you.</h2>
+            <h2 class="mb-4" lang="en">Choose the plan that’s right for you.</h2>
+            <h2 class="mb-4" lang="zh">選擇最適合你的資費方案</h2>
           </div>
         </div>
         <div class="row d-flex">
@@ -773,16 +986,22 @@
       <div class="container">
         <div class="row justify-content-center mb-3">
           <div class="col-md-11">
-            <h1 class="next-text">
+            <h1 class="next-text" lang="en">
               What’s next?
               HR Matching Tool. Whether you’re an employer, job seeker, or looking for a partnership, we’ll help you get the right
               connections.
             </h1>
+            <h1 class="next-text" lang="zh">
+              無論你是企業主、求職者或是正在找尋合作夥伴的專業人士，放心交給我們吧。BizNect不讓你錯過任何人脈關鍵！
+            </h1>
           </div>
         </div>
         <div class="row justify-content-center">
-          <p>
+          <p lang="en">
             <a href="#" class="btn btn-primary btn-outline-primary wht-btn px-5 py-3">Contact us to know more</a>
+          </p>
+          <p lang="zh">
+            <a href="#" class="btn btn-primary btn-outline-primary wht-btn px-5 py-3">聯絡我們，了解更多商務方案</a>
           </p>
         </div>
       </div>
@@ -790,12 +1009,14 @@
     <!-- End what's next section -->
 
     <!-- Start subscribe section -->
-    <section class="ftco-section bg-light">
+    <section class="ftco-section bg-light" id="subscribe">
       <div class="container">
         <div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-9 text-center heading-section ftco-animate">
-            <h2 class="mb-4">BizNect makes professional networking so easy.</h2>
-            <p>Subscribe to get a notification when it’s available.</p>
+            <h2 class="mb-4" lang="en">BizNect makes professional networking so easy.</h2>
+            <h2 class="mb-4" lang="zh">BizNect幫助你無時不刻、隨時隨地，輕鬆建立邁向成功職涯的專業人脈網！</h2>
+            <p lang="en">Subscribe to get a notification when it’s available.</p>
+            <p lang="zh">立刻訂閱BizNect追蹤關於我們的最新消息。</p>
           </div>
         </div>
           <div class="row justify-content-center block-9">
@@ -893,5 +1114,9 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
     <script src="js/google-map.js"></script>
     <script src="js/main.js"></script>
+
+    <script>
+      document.body.className = 'en'
+    </script>
   </body>
 </html>
