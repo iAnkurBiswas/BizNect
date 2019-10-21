@@ -5224,7 +5224,7 @@ a.close.disabled {
 .carousel-indicators {
   position: absolute;
   right: 0;
-  bottom: 0;
+  bottom: -80px;
   left: 0;
   z-index: 15;
   display: -webkit-box;
@@ -5243,8 +5243,9 @@ a.close.disabled {
     -webkit-box-flex: 0;
     -ms-flex: 0 1 auto;
     flex: 0 1 auto;
-    width: 30px;
-    height: 3px;
+    width: 50px;
+    height: 10px;
+    border-radius: 12px;
     margin-right: 3px;
     margin-left: 3px;
     text-indent: -999px;
@@ -10166,4 +10167,17 @@ textarea.form-control {
     .hero-wrap .slider-text .one-third {
       display: none;
     }
+  }
+
+  .slider-body {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .slider>.row {
+    margin: 0 !important;
+  }
+
+  .carousel-indicators li {
+    background-color: #FF7F43;
   }
